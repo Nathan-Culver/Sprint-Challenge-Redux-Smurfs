@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
 import { fetchSmurfs } from '../actions';
+import SmurfsForm from './Form';
 
 class App extends Component {
 
